@@ -1,0 +1,132 @@
+{"projects":
+[
+    {
+        "id":"1",
+        "name":"Project A",
+        "status":"Completed",
+        "description":"House Building",
+        "startDate":"2023-01-03",
+        "endDate":"2024-04-05",
+        "assignedEmployees":["employee3","employee1","employee4"],
+        "equipment":["Excavator", "Dump Truck"]
+    },
+    {
+        "id":"2" ,
+        "name":"Project B",
+        "status":"Ongoing",
+        "description":"Road making",
+        "startDate":"2024-01-03",
+        "endDate":"2024-04-05",
+        "assignedEmployees":["employee7","employee4","emplyee6"],
+        "equipment":["Dump Truck", "Crane"]
+    },
+    {
+        "id":"3",
+        "name":"Project C",
+        "status":"Completed",
+        "description":"Store construction",
+        "startDate":"2023-03-01",
+        "endDate":"2024-01-03",
+        "assignedEmployees":["employee3","employee1","employee4"],
+        "equipment":["Excavator", "Dump Truck"]
+    },
+    {
+        "id":"4",
+        "name":"Project D",
+        "status":"Ongoing",
+        "description":"House construction",
+        "startDate":"2024-05-26",
+        "endDate":"",
+        "assignedEmployees":["employee8","employee2","employee5"],
+        "equipment":["Crane", "Excavator"]
+    },
+    {
+        "id":5,
+        "name":"Project E",
+        "status":"Ongoing",
+        "description":"Road construction",
+        "startDate":"2024-03-26",
+        "endDate":"",
+        "assignedEmployees":["employee9","employee10","employee11"],
+        "equipment":["Crane", "Excavator"]
+    }
+],
+"employees":[
+    {
+        "id":1,
+        "name":"employee1",
+        "role":"Worker",
+        "assignedProject":"Project C"
+    },
+    {
+        "id":2,
+        "name":"employee2",
+        "role":"Manager",
+        "assignedProject":"Project D"
+    },
+    {
+        "id":3,
+        "name":"employee3",
+        "role":"Supervisor",
+        "assignedProject":"Project C"
+    },
+    {
+        "id":4,
+        "name":"employee4",
+        "role":"Worker",
+        "assignedProject":"Project B"
+    },
+    {
+        "id":5,
+        "name":"employee5",
+        "role":"Worker",
+        "assignedProject":"Project D"
+    },
+    {
+        "id":6,
+        "name":"employee6",
+        "role":"Worker",
+        "assignedProject":"Project B"
+    },
+    {
+        "id":7,
+        "name":"employee7",
+        "role":"Supervisor",
+        "assignedProject":"Project D"
+    },
+    {
+        "id":8,
+        "name":"employee8",
+        "role":"Supervisor",
+        "assignedProject":"Project D"
+    },
+    {
+        "id":9,
+        "name":"employee9",
+        "role":"Supervisor",
+        "assignedProject":"Project E"
+    },
+    {
+        "id":10,
+        "name":"employee10",
+        "role":"Worker",
+        "assignedProject":"Project E"
+    },
+    {
+        "id":11,
+        "name":"employee11",
+        "role":"Worker",
+        "assignedProject":"Project E"
+    }
+],
+"equipments":[
+    { "id": "1", "name": "Excavator", "availability": "Available" },
+    { "id": "2", "name": "Bulldozer", "availability": "In Use" },
+    { "id": "3", "name": "Crane", "availability": "Under Maintenance" },
+    { "id": "4", "name": "Dump Truck", "availability": "Available" },
+    { "id": "5", "name": "Excavator", "availability": "Available" },
+    { "id": "6", "name": "Bulldozer", "availability": "In Use" },
+    { "id": "7", "name": "Crane", "availability": "Under Maintenance" },
+    { "id": "8", "name": "Dump Truck", "availability": "Available" }
+]
+}

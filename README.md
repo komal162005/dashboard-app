@@ -44,4 +44,31 @@ To run project
   npx expo start
 ```
 
-    
+## Mock Api 
+
+#### 1. Install json-server
+
+```bash
+npm install -g json-server
+```
+
+#### 2. Create data.json
+
+Create a db.json file with the sample data
+
+#### 3. Run json-server
+
+Run json-server to serve the mock API:
+
+```bash
+json-server --watch db.json --port 3000
+```
+
+mock API should now be accessible at 'http://localhost:3000'
+
+### APIs used
+
+/projects
+/projects/{projectId}
+/employees
+/equipment
